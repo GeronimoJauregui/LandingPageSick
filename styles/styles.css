@@ -103,10 +103,41 @@ h1{
     h1{
         font-size: 40px !important;
     }
+    .margenInfo{
+        text-align: center;
+        padding: 60px 28.5px 34.7px 29.3px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 20px 70px ;
+    }
 }
 @media only screen and (min-width: 565px){
     h5{
         font-size: 22px !important;
+    }
+    .margenLogo{
+        padding: 0px 35px;
+    }
+    .margenInfo{
+        text-align: center;
+        padding: 60px 35px 15.7px 35px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 20px 110px ;
+    }
+}
+@media only screen and (min-width: 576px){
+    .margenLogo{
+        padding: 46px 30px 104px 29px;
+    }
+    .margenInfo{
+        padding: 0px 0px 55.7px 76px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 0px 160px ;
     }
 }
 @media only screen and (min-width: 790px){
