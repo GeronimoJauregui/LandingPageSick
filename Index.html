@@ -14,39 +14,43 @@
 
     <!--- Custom CSS for this page --->
     <link rel="stylesheet" href="styles/index.css">
-
+    <link rel="stylesheet" href="styles/styles.css">
     <!--- Favicon --->
     <!-- <link rel="shortcut icon" type="image/png" href="imgs/logo.png"/> -->
 </head>
 <body>
     <div class="container-fluid">
         <div class="row content"> 
-            <div class="col-12" id="menu">
-                Uno
+            <div class="col-12 margenMenu">
+                <div id="menu">
+                    Uno
+                </div>
             </div>
         </div>
-        <div class="row content" > 
-            <div class="col-12 col-sm-6" id="info">
-                dos 
+        <div class="row content"> 
+            <div class="col-12 col-sm-6 margenLogo" >
+                <div id="logo">dos </div>
             </div>
-            <div class="col-12 col-sm-6 order-sm-first" id="logo">
-                tres
+            <div class="col-12 col-sm-6 order-sm-first margenInfo" >
+                <div id="info">tres</div>
             </div>
         </div>
         <div class="row">
-            <div class="col-12" id="contact">
-                cuatro
-                <form action="Contacto" method="POST">
-                    <input type="text" placeholder="Nombre" name="nombre" id="nombre">
-                    <br/>
-                    <input type="tel" placeholder="Teléfono" name="telefono" id="telefono">
-                    <br/>
-                    <input type="email" placeholder="Email" name="email" id="email">
-                    <br/>
-                    <textarea id="inputMsg" placeholder="Mensaje" name="mensaje"></textarea>
-                    <br/>
-                    <input type="button" value="Enviar" id="Enviar">
-                </form>
+            <div class="col-12 margenContact">
+                <div id="contact">
+                    cuatro
+                    <form action="Contacto" method="POST">
+                        <input type="text" placeholder="Nombre" name="nombre" id="nombre">
+                        <br/>
+                        <input type="tel" placeholder="Teléfono" name="telefono" id="telefono">
+                        <br/>
+                        <input type="email" placeholder="Email" name="email" id="email">
+                        <br/>
+                        <textarea id="inputMsg" placeholder="Mensaje" name="mensaje"></textarea>
+                        <br/>
+                        <input type="button" value="Enviar" id="Enviar">
+                    </form>
+                </div>
             </div>
         </div>    
     </div>

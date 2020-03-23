@@ -1,0 +1,153 @@
+/*   Fonts   */
+@font-face {
+    font-family:'Assistant';
+    src: url('../fonts/Assistant-Regular.eot'); 
+    src: url('../fonts/Assistant-Regular.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Assistant-Regular.svg#Assistant-Regular') format('svg'), 
+         url('../fonts/Assistant-Regular.ttf') format('truetype'),
+         url('../fonts/Assistant-Regular.woff') format('woff'),
+         url('../fonts/Assistant-Regular.woff2') format('woff2'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'Baloo-ExtraBold';
+    src: url('../fonts/Baloo2-ExtraBold.eot'); 
+    src: url('../fonts/Baloo2-ExtraBold.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Baloo2-ExtraBold.svg#Baloo2-Regular') format('svg'), 
+         url('../fonts/Baloo2-ExtraBold.ttf') format('truetype'),
+         url('../fonts/Baloo2-ExtraBold.woff') format('woff'),
+         url('../fonts/Baloo2-ExtraBold.woff2') format('woff2'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'AlteHaasGrotesk-Bold';
+    src: url('../fonts/AlteHaasGroteskBold.eot'); 
+    src: url('../fonts/AlteHaasGroteskBold.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/AlteHaasGroteskBold.svg#AlteHaasGroteskBold') format('svg'), 
+         url('../fonts/AlteHaasGroteskBold.ttf') format('truetype'),
+         url('../fonts/AlteHaasGroteskBold.woff') format('woff'),
+         url('../AlteHaasGroteskBold.woff2') format('woff2'); 
+    font-weight: normal;
+    font-style: normal;
+}
+/* End of Fonts*/
+body{
+    background-color: #112033;
+}
+
+p{
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 21px;
+    color: #ffffff !important;
+}
+h2{
+    font-family: 'AlteHaasGrotesk-Bold';
+    font-size: 18px !important;
+    line-height: 25.2px;
+    color: #112033 !important;
+}
+input{
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+}
+a{
+    font-family: 'AlteHaasGrotesk-Bold';
+    font-size: 16px !important;
+    line-height: 25.2px;
+    color: #F29745 !important;
+}
+h5{
+    font-family: 'Baloo-ExtraBold';
+    font-size: 21px !important;
+    line-height: 14px;
+    color: #F29745 !important;
+}
+h1{
+    font-family: 'Baloo-ExtraBold';
+    font-size: 38px !important;
+    line-height: 37px;
+    color: #F29745 !important;
+}
+
+
+.margenMenu{
+    padding: 15px 30.5px 15.8px 21 px;
+}
+.margenLogo{
+    padding: 0px 0px;
+}
+.margenInfo{
+    text-align: center;
+    padding: 60px 40.9px 13.7px 42.5px;
+}
+.margenContact{
+    text-align: center;
+    padding: 20px 23px ;
+}
+@media only screen and (min-width: 390px){
+    .margenInfo{
+        text-align: center;
+        padding: 60px 31px 21.7px 31px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 20px 35px ;
+    }
+}
+@media only screen and (min-width: 460px){
+    h1{
+        font-size: 40px !important;
+    }
+}
+@media only screen and (min-width: 565px){
+    h5{
+        font-size: 22px !important;
+    }
+}
+@media only screen and (min-width: 790px){
+    a{
+        font-size: 18px !important;
+    }
+    h5{
+        font-size: 28px !important;
+    }
+    h1{
+        font-size: 48px !important;
+    }
+}
+@media only screen and (min-width: 1030px){
+    h2{
+        font-size: 21px !important;
+    }
+    a{
+        font-size: 21px !important;
+    }
+    h5{
+        font-size: 32px !important;
+    }
+    h1{
+        font-size: 61px !important;
+        line-height: 58px;
+    }
+}
+@media only screen and (min-width: 1170px){
+    h5{
+        font-size: 38px !important;
+        line-height: 20px;
+    }
+    h1{
+        font-size: 71px !important;
+        line-height: 68px;
+    }
+}
+@media only screen and (min-width: 1285px){
+    h1{
+        font-size: 86px !important;
+        line-height: 78px;
+    }
+}
