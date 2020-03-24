@@ -1,15 +1,34 @@
-#menu{
-	background-color: #DD5957;
-}
 #info{
 	background-color: #F29745;
 	height: 300px;
 }
-#logo{
-	background-color: #235BA7;
-	height: 150px;
-}
 #contact{
 	background-color: #F3BC51;
 	height: 250px;
+}
+.Menulogo img{
+	height: 39.2px;
+	width: 53.82px;
+	margin-top: 15px;
+}
+.Puntos{
+	padding-right: 0px;
+}
+.Puntos img{
+	height: 68px;
+	width: 160px;
+	float: right;
+}
+.Logo{
+	background: url("../icons/logo.svg") center/90%  no-repeat, url("../icons/ilustracion320.svg") center center/cover no-repeat;
+	height: 494px;
+}
+/*.Logo img{
+	height: 178.98px;
+	width: 250.57px;
+	margin-top: 157.2px;
+	margin-left: 12%;
+}*/
+.info img{
+	margin-bottom: -45px;
 }
