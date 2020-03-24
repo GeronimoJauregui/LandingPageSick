@@ -161,6 +161,12 @@ h1{
     text-align: center;
     padding: 20px 5px ;
 }
+
+/*--- Floating Items ---*/
+.sidebarSocial{
+    display: none;
+}
+/*--- End of Floating Items ---*/
 @media only screen and (min-width: 390px){
     .margenInfo{
         text-align: center;
@@ -205,12 +211,39 @@ h1{
         padding: 46px 30px 104px 29px;
     }
     .margenInfo{
+        text-align: left;
         padding: 0px 0px 55.7px 76px;
     }
     .margenContact{
         text-align: center;
         padding: 0px 160px ;
     }
+
+    /*--- Floating Items ---*/
+    .sidebarSocial{
+        display: block;
+        width: 55px;
+        position: fixed;
+        z-index: 100;
+        top: 50%;
+        left: 0px;
+    }
+    .sidebarItem{
+        height: 60px;
+        padding: 10px 0px 10px 15px;
+    }
+    .sidebarItem img{
+        max-height: 40px;
+        height: 40px;
+        position: absolute;
+    }
+    .sidebarItem{
+        display: flex;
+    }
+    .sidebarItem img{
+        position: static;
+    }
+    /*--- End of Floating Items ---*/
 }
 @media only screen and (min-width: 790px){
     h3{
@@ -251,6 +284,16 @@ h1{
         text-align: center;
         padding: 0px 230px ;
     }
+
+    /*--- Floating Items ---*/
+    .sidebarSocial{
+        width: 60px;
+        top: 50%;
+    }
+    .sidebarItem{
+        padding: 10px 0px 10px 20px;
+    }
+    /*--- End of Floating Items ---*/
 }
 @media only screen and (min-width: 1030px){
     h2{
@@ -302,6 +345,20 @@ h1{
         text-align: center;
         padding: 0px 270px ;
     }
+    /*--- Floating Items ---*/
+    .sidebarSocial{
+        width: 67.5px;
+        top: 50%;
+    }
+    .sidebarItem{
+        height: 70px;
+        padding: 12.5px 0px 12.5px 22.5px;
+    }
+    .sidebarItem img{
+        max-height: 45px;
+        height: 45px;
+    }
+    /*--- End of Floating Items ---*/
 }
 @media only screen and (min-width: 1285px){
     h1{
@@ -346,3 +403,4 @@ h1{
         padding: 0px 647px ;
     }
 }
+
