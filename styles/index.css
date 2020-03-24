@@ -1,6 +1,13 @@
+body{
+	background: url("../imgs/Background.jpg") center no-repeat;
+	background-attachment: scroll;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 #info{
-	background-color: #F29745;
-	height: 300px;
+	/*background-color: #F29745;
+	height: 300px;*/
 }
 #contact{
 	/*background-color: #F3BC51;
@@ -20,7 +27,7 @@
 	float: right;
 }
 .Logo{
-	background: url("../icons/logo.svg") center/90%  no-repeat, url("../icons/ilustracion320.svg") center center/cover no-repeat;
+	background: url("../icons/logo.svg") center/90%  no-repeat, url("../icons/ilustracion320.svg") center/cover no-repeat;
 	height: 494px;
 }
 /*.Logo img{
@@ -31,6 +38,8 @@
 }*/
 .info img{
 	margin-bottom: -45px;
+	width: 150px;
+    height: 40px;
 }
 .size img{
 	max-width: 40px;
@@ -56,6 +65,52 @@
 .inputHeight{
 	padding-bottom: 20px;
 }
+
+.button{
+	background: url("../icons/Boton.svg") no-repeat center/52%;
+	font-family: 'AlteHaasGrotesk-Bold';
+    font-size: 18px !important;
+    line-height: 25.2px;
+    color: #112033 !important;
+    margin-top: 30px;
+}
+
+.email-tel{
+	text-align: center;
+}
+footer{
+	background: #DD5957;
+	height: 44px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+}
+/*--- start 390  ---*/
+@media only screen and (min-width: 390px) {
+	.Logo{
+		background: url("../icons/logo.svg") center/90%  no-repeat, url("../icons/Ilustracion_390.svg") center/cover no-repeat;
+		height: 494px;
+	}   
+	.info img {
+	    margin-bottom: -36px;
+	    margin-top: 30px;
+	}
+	.Layout_1 {
+    	padding-top: 32px;
+    	padding-bottom: 14px;
+	}
+}
+/*--- End of 390 ---*/
+
+/*--- start 460  ---*/
+@media only screen and (min-width: 460px) {
+	.Logo{
+		background: url("../icons/Logo.png") center/cover no-repeat;
+		height: 454.49px;
+	}   
+}
+/*--- End of 460 ---*/
+
 @media only screen and (min-width: 576px){
 	.none{
 		display: none;

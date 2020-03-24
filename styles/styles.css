@@ -33,9 +33,6 @@
     font-style: normal;
 }
 /* End of Fonts*/
-body{
-    background-color: #112033;
-}
 
 p{
     font-family: 'Assistant';
@@ -48,6 +45,12 @@ h2{
     font-size: 18px !important;
     line-height: 25.2px;
     color: #112033 !important;
+}
+h4{
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: white !important;
 }
 input{
 	font-family: 'Assistant';
@@ -174,7 +177,7 @@ h1{
     }
     .margenContact{
         text-align: center;
-        padding: 20px 35px ;
+        padding: 30px 26px;
     }
 }
 @media only screen and (min-width: 460px){
