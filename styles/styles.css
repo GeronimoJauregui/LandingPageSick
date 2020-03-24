@@ -50,12 +50,84 @@ h2{
     color: #112033 !important;
 }
 input{
+	font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    width: 279.71px;
+    height: 35px;
+    padding-left: 15.6px;
+}
+input::-webkit-input-placeholder { /* Google Chrome y Safari */
     font-family: 'Assistant';
     font-size: 16px !important;
     line-height: 20px;
     color: #235BA7 !important;
 }
-a{
+input:-moz-placeholder { /* Firefox anterior a 19 */
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+}
+input::-moz-placeholder { /* Firefox 19 y superior */
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10 y superior */
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+}
+textarea{
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    width: 279.71px;
+    height: 100px;
+    padding-left: 15.6px;
+    padding-top: 10px;
+}
+textarea::-webkit-input-placeholder { /* Google Chrome y Safari */
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+}
+textarea:-moz-placeholder { /* Firefox anterior a 19 */
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+}
+textarea::-moz-placeholder { /* Firefox 19 y superior */
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+}
+textarea:-ms-input-placeholder { /* Internet Explorer 10 y superior */
+    font-family: 'Assistant';
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #235BA7 !important;
+}
+
+h3{
     font-family: 'AlteHaasGrotesk-Bold';
     font-size: 16px !important;
     line-height: 25.2px;
@@ -87,7 +159,7 @@ h1{
 }
 .margenContact{
     text-align: center;
-    padding: 20px 23px ;
+    padding: 20px 5px ;
 }
 @media only screen and (min-width: 390px){
     .margenInfo{
@@ -141,7 +213,7 @@ h1{
     }
 }
 @media only screen and (min-width: 790px){
-    a{
+    h3{
         font-size: 18px !important;
     }
     h5{
@@ -184,7 +256,7 @@ h1{
     h2{
         font-size: 21px !important;
     }
-    a{
+    h3{
         font-size: 21px !important;
     }
     h5{

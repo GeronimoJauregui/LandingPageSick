@@ -3,8 +3,8 @@
 	height: 300px;
 }
 #contact{
-	background-color: #F3BC51;
-	height: 250px;
+	/*background-color: #F3BC51;
+	height: 250px;*/
 }
 .Menulogo img{
 	height: 39.2px;
@@ -31,4 +31,28 @@
 }*/
 .info img{
 	margin-bottom: -45px;
+}
+.size img{
+	max-width: 40px;
+}
+.Layout_1{
+	padding-top: 19px;
+}
+.Layout_2{
+	padding-bottom: 9px;
+}
+.col-aux{
+	width: 5%;
+}
+.col-5ths {
+	position: relative;
+  	padding-right: 10px;
+  	padding-left: 10px;
+}
+.col-5ths {
+	width: 18%;
+	float: left;
+}
+.inputHeight{
+	padding-bottom: 20px;
 }
