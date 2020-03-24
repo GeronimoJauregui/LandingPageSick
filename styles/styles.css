@@ -150,6 +150,35 @@ h1{
     h1{
         font-size: 48px !important;
     }
+
+    .margenMenu{
+        padding: 15px 27.1px 43.8px 21px;
+    }
+    .margenLogo{
+        padding: 0px 40.5px 123px 79px;
+    }
+    .margenInfo{
+        padding: 0px 0px 88.7px 58.5px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 0px 170px ;
+    }
+}
+@media only screen and (min-width: 910px){
+    .margenMenu{
+        padding: 15px 33.2px 14.5px 22px;
+    }
+    .margenLogo{
+        padding: 0px 0px 76px 42px;
+    }
+    .margenInfo{
+        padding: 0px 0px 109.1px 133px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 0px 230px ;
+    }
 }
 @media only screen and (min-width: 1030px){
     h2{
@@ -165,6 +194,19 @@ h1{
         font-size: 61px !important;
         line-height: 58px;
     }
+    .margenMenu{
+        padding: 14px 33.7px 29.5px 22px;
+    }
+    .margenLogo{
+        padding: 0px 21px 97px 26px;
+    }
+    .margenInfo{
+        padding: 0px 0px 128.1px 135.5px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 0px 252px ;
+    }
 }
 @media only screen and (min-width: 1170px){
     h5{
@@ -175,10 +217,60 @@ h1{
         font-size: 71px !important;
         line-height: 68px;
     }
+    .margenMenu{
+        padding: 9.6px 41px 39.9px 33.9px;
+    }
+    .margenLogo{
+        padding: 0px 31.5px 97px 22px;
+    }
+    .margenInfo{
+        padding: 32px 0px 148.7px 140.5px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 0px 270px ;
+    }
 }
 @media only screen and (min-width: 1285px){
     h1{
         font-size: 86px !important;
         line-height: 78px;
+    }
+    .margenMenu{
+        padding: 20.3px 41px 20.2px 33.9px;
+    }
+    .margenLogo{
+        padding: 13px 33px 107px 40px;
+    }
+    .margenInfo{
+        padding: 72px 0px 192px 119px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 0px 321px ;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .margenLogo{
+        padding: 0px 0px 100px 39px;
+    }
+    .margenInfo{
+        padding: 138px 0px 262px 151.5px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 0px 410px ;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .margenLogo{
+        padding: 0px 240px 100px 39px;
+    }
+    .margenInfo{
+        padding: 138px 0px 262px 392px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 0px 647px ;
     }
 }
