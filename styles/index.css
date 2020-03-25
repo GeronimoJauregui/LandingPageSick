@@ -30,12 +30,9 @@ body{
 	background: url("../icons/logo.svg") center/90%  no-repeat, url("../icons/ilustracion320.svg") center/cover no-repeat;
 	height: 494px;
 }
-/*.Logo img{
-	height: 178.98px;
-	width: 250.57px;
-	margin-top: 157.2px;
-	margin-left: 12%;
-}*/
+.Logo img{
+	visibility: hidden;
+}
 .info img{
 	margin-bottom: -45px;
 	width: 150px;
@@ -129,6 +126,8 @@ footer{
 	}
 }
 /*--- End of 460 ---*/
+
+/*--- start 565  ---*/
 @media only screen and (min-width: 565px){
 	.Logo{
 		background: url("../icons/LogoCompleto.svg") center/cover no-repeat;
@@ -143,8 +142,105 @@ footer{
 		margin-bottom: 20px;
 	}
 }
+/*--- End of 565 ---*/
+
+/*--- start 576  ---*/
 @media only screen and (min-width: 576px){
 	.none{
 		display: none;
 	}
 }
+/*--- End of 576 ---*/
+
+/*--- start 670  ---*/
+@media only screen and (min-width: 670px){
+	h1{
+		padding-bottom: 15px;
+	}
+	h2{
+		padding-left: 26%;
+	}
+	p{
+		margin-bottom: -5px;
+	}
+	.Logo{
+		height: 378.29px;
+		background-image: none;
+	}   
+	.Logo img{
+		height: 284px;
+		visibility: visible;
+	}   
+	.info img {
+	    text-align: center !important;
+	    margin-left: 12%;
+	    margin-top: 20px;
+	}
+	.Layout_1 {
+    	width: 101%;
+    	padding-bottom: 0px;
+	}
+}
+/*--- End of 670 ---*/
+
+
+/*--- start 790  ---*/
+@media only screen and (min-width: 790px){
+	.menu{
+		margin-bottom: 20px;	
+	}
+
+	.Logo{
+		height: 375px;
+	}   
+	.Logo img{
+		height: 316px;
+	}   
+	
+	.Layout_1 {
+    	padding-top: 30px;
+    	padding-bottom: 13px;
+	}
+
+	.button{
+		height: 50px;
+		background-size: 40%;
+	}
+}
+/*--- End of 790 ---*/
+
+/*--- start 910  ---*/
+@media only screen and (min-width: 910px){
+	.Logo{
+		height: 424px;
+	}
+	.Logo img{
+		height: 424px;
+	}
+	.info img {
+    	margin-left: 23%;
+	}
+	h2{
+		padding-left: 35%;
+	}
+	#tel{
+		text-align: right;
+	}
+	#email{
+		text-align: left;
+	}
+	.Menulogo img {
+    	width: 70.68px;
+    	height: 51.48px;
+    	margin-top: 0px;
+	}
+	.Puntos img {
+	    height: 80px;
+	    width: 190px;
+	}
+}
+/*--- End of 910 ---*/
+
+
+
+

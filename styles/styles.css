@@ -199,11 +199,11 @@ h1{
     }
     .margenLogo{
         padding: 0px 35px;
-        height: 550px;
+        /*height: 550px;*/
     }
     .margenInfo{
         text-align: center;
-        padding: 60px 60px 15.7px 60px;
+        padding: 60px 36px 15.7px 36px;
     }
     .margenContact{
         text-align: center;
@@ -222,11 +222,11 @@ h1{
     }
     .margenInfo{
         text-align: left;
-        padding: 0px 0px 55.7px 76px;
+        padding: 4px 14px 0.7px 76px;
     }
     .margenContact{
         text-align: center;
-        padding: 0px 160px ;
+        padding: 25px 160px ;
     }
 
     /*--- Floating Items ---*/
@@ -270,14 +270,20 @@ h1{
         padding: 15px 27.1px 43.8px 21px;
     }
     .margenLogo{
-        padding: 0px 40.5px 123px 79px;
+        padding: 0px 40.5px 123px 40px;
     }
     .margenInfo{
-        padding: 0px 0px 88.7px 58.5px;
+        padding: 10px 36px 88.7px 58.5px;
     }
     .margenContact{
         text-align: center;
         padding: 0px 170px ;
+    }
+    input{
+        width: 409.54px;
+    }
+    textarea{
+        width: 409.54px;
     }
 }
 @media only screen and (min-width: 910px){
@@ -285,14 +291,14 @@ h1{
         padding: 15px 33.2px 14.5px 22px;
     }
     .margenLogo{
-        padding: 0px 0px 76px 42px;
+        padding: 0px 0px 76px 25px;
     }
     .margenInfo{
-        padding: 0px 0px 109.1px 133px;
+        padding: 50px 29px 109.1px 133px;
     }
     .margenContact{
         text-align: center;
-        padding: 0px 230px ;
+        padding: 0px 230px 20px ;
     }
 
     /*--- Floating Items ---*/
@@ -304,6 +310,13 @@ h1{
         padding: 10px 0px 10px 20px;
     }
     /*--- End of Floating Items ---*/
+
+    input{
+        width: 450px;
+    }
+    textarea{
+        width: 450px;
+    }
 }
 @media only screen and (min-width: 1030px){
     h2{
