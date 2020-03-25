@@ -162,7 +162,7 @@ h1{
 }
 .margenContact{
     text-align: center;
-    padding: 20px 5px ;
+    padding: 20px 5px 28px;
 }
 
 /*--- Floating Items ---*/
@@ -186,11 +186,11 @@ h1{
     }
     .margenInfo{
         text-align: center;
-        padding: 60px 28.5px 34.7px 29.3px;
+        padding: 60px 40px 34.7px 40px;
     }
     .margenContact{
         text-align: center;
-        padding: 20px 70px ;
+        padding: 20px 60px 30px;
     }
 }
 @media only screen and (min-width: 565px){
@@ -199,14 +199,21 @@ h1{
     }
     .margenLogo{
         padding: 0px 35px;
+        height: 550px;
     }
     .margenInfo{
         text-align: center;
-        padding: 60px 35px 15.7px 35px;
+        padding: 60px 60px 15.7px 60px;
     }
     .margenContact{
         text-align: center;
-        padding: 20px 110px ;
+        padding: 20px 100px ;
+    }
+    input{
+        width: 303.62px;
+    }
+    textarea{
+        width: 303.62px;
     }
 }
 @media only screen and (min-width: 576px){

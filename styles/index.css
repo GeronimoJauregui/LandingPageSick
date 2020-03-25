@@ -92,12 +92,24 @@ footer{
 		height: 494px;
 	}   
 	.info img {
-	    margin-bottom: -36px;
+	    margin-bottom: -33px;
 	    margin-top: 30px;
 	}
 	.Layout_1 {
     	padding-top: 32px;
     	padding-bottom: 14px;
+	}
+	.col-aux{
+		width: 10%;
+	}
+	.col-5ths {
+		position: relative;
+		  padding-right: 10px;
+		  padding-left: 10px;
+	}
+	.col-5ths {
+		width: 16%;
+		float: left;
 	}
 }
 /*--- End of 390 ---*/
@@ -105,12 +117,32 @@ footer{
 /*--- start 460  ---*/
 @media only screen and (min-width: 460px) {
 	.Logo{
-		background: url("../icons/Logo.png") center/cover no-repeat;
+		background: url("../icons/LogoCompleto.svg") center/cover no-repeat;
 		height: 454.49px;
 	}   
+	.info img {
+	    margin-bottom: -33px;
+	    margin-top: 27.3px;
+	}
+	.button{
+		background: url("../icons/Boton.svg") no-repeat center/48%;
+	}
 }
 /*--- End of 460 ---*/
-
+@media only screen and (min-width: 565px){
+	.Logo{
+		background: url("../icons/LogoCompleto.svg") center/cover no-repeat;
+		height: 494px;
+	}
+	.info img {
+	    margin-bottom: -33px;
+	    margin-top: 30px;
+	}
+	.button{
+		background: url("../icons/Boton.svg") no-repeat center/45%;
+		margin-bottom: 20px;
+	}
+}
 @media only screen and (min-width: 576px){
 	.none{
 		display: none;
