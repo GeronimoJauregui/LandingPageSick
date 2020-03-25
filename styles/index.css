@@ -149,6 +149,18 @@ footer{
 	.none{
 		display: none;
 	}
+	#tel{
+		text-align: right;
+	}
+	#email{
+		text-align: left;
+	}
+	#tel{
+		padding-right: 54px;
+	}
+	#email{
+		padding-left: 54px;
+	}
 }
 /*--- End of 576 ---*/
 
@@ -203,8 +215,14 @@ footer{
 	}
 
 	.button{
-		height: 50px;
-		background-size: 40%;
+		height: 40px;
+		background-size: 35%;
+	}
+	#tel{
+		padding-right: 31px;
+	}
+	#email{
+		padding-left: 31px;
 	}
 }
 /*--- End of 790 ---*/
@@ -219,6 +237,10 @@ footer{
 	}
 	.info img {
     	margin-left: 23%;
+	}
+	.info img{
+		width: 155px;
+		height: 40px;
 	}
 	h2{
 		padding-left: 35%;
@@ -238,9 +260,131 @@ footer{
 	    height: 80px;
 	    width: 190px;
 	}
+	footer{
+		padding-top: 16px;
+		height: 55px;
+	}
+	#tel{
+		padding-right: 15.5px;
+	}
+	#email{
+		padding-left: 15.5px;
+	}
 }
 /*--- End of 910 ---*/
+@media only screen and (min-width: 1030px){
+	.Puntos img {
+	    width: 191px;
+	}
+	h2{
+		padding-left: 36%;
+	}
+	.info img{
+		width: 200px;
+		height: 45px;
+	}
+	.Layout_1 {
+    	padding-bottom: 29px;
+	}
+	.Layout_2{
+		padding-bottom: 26px;
+	}
+	.button{
 
-
-
-
+		height: 45px;
+		background-size: 40%;
+		margin-top: 32px;
+		margin-bottom: 67px;
+	}
+	#tel{
+		padding-right: 28px;
+	}
+	#email{
+		padding-left: 28px;
+	}
+}
+@media only screen and (min-width: 1170px){
+	.Menulogo img {
+    	width: 83.12px;
+    	height: 60.53px;
+	}
+	.Puntos img {
+	    height: 80px;
+	    width: 244px;
+	}
+	.Logo{
+		height: 488px;
+	}
+	.Logo img{
+		height: 488px;
+	}
+	h2{
+		padding-top: 31px;
+		padding-left: 35%;
+	}
+	.info img {
+    	margin-bottom: -85px;
+	}
+	.Layout_1 {
+    	padding-bottom: 24px;
+	}
+	#tel{
+		padding-right: 43px;
+	}
+	#email{
+		padding-left: 43px;
+	}
+}
+@media only screen and (min-width: 1285px){
+	.Menulogo img {
+    	width: 83.12px;
+    	height: 59.53px;
+	}
+	.Puntos img {
+	    height: 100px;
+	    width: 244px;
+	}
+	.Logo{
+		height: 544px;
+	}
+	.Logo img{
+		height: 544px;
+	}
+	p{
+		padding-right: 110px;
+	}
+	h2{
+		padding-left: 29%;
+	}
+	.info img{
+		margin-left: 19%;
+	}
+	#tel{
+		padding-right: 55px;
+	}
+	#email{
+		padding-left: 55px;
+	}
+}
+@media only screen and (min-width: 1440px){
+	.Logo{
+		height: 700px;
+	}
+	.Logo img{
+		height: 700px;
+	}
+	p{
+		padding-right: 170px;
+	}
+	#tel{
+		padding-right: 71px;
+	}
+	#email{
+		padding-left: 71px;
+	}
+}
+@media only screen and (min-width: 1600px){
+	h2{
+		padding-left: 27%;
+	}
+}
