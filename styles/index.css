@@ -146,6 +146,14 @@ footer{
 
 /*--- start 576  ---*/
 @media only screen and (min-width: 576px){
+	.Logo{
+		height: 300.29px;
+		background-image: none;
+	} 
+	.Logo img{
+		height: 250px;
+		visibility: visible;
+	}  
 	.none{
 		display: none;
 	}
@@ -160,6 +168,14 @@ footer{
 	}
 	#email{
 		padding-left: 54px;
+	}
+	.info img {
+	    text-align: center !important;
+	    margin-left: 12%;
+	    margin-top: 20px;
+	}
+	h2{
+		padding-left: 29%;
 	}
 }
 /*--- End of 576 ---*/
@@ -177,7 +193,6 @@ footer{
 	}
 	.Logo{
 		height: 378.29px;
-		background-image: none;
 	}   
 	.Logo img{
 		height: 284px;

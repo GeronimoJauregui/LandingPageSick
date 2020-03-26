@@ -217,6 +217,51 @@ h1{
     }
 }
 @media only screen and (min-width: 576px){
+    h1{
+        font-family: 'Baloo-ExtraBold';
+        font-size: 33px !important;
+        line-height: 37px;
+        color: #F29745 !important;
+    }
+    .margenLogo{
+        padding: 46px 30px 104px 29px;
+    }
+    .margenInfo{
+        text-align: left;
+        padding: 4px 14px 0.7px 65px;
+    }
+    .margenContact{
+        text-align: center;
+        padding: 25px 100px ;
+    }
+
+    /*--- Floating Items ---*/
+    .sidebarSocial{
+        display: block;
+        width: 55px;
+        position: fixed;
+        z-index: 100;
+        top: 35%;
+        left: 0px;
+    }
+    .sidebarItem{
+        height: 60px;
+        padding: 10px 0px 10px 15px;
+    }
+    .sidebarItem img{
+        max-height: 40px;
+        height: 40px;
+        position: absolute;
+    }
+    .sidebarItem{
+        display: flex;
+    }
+    .sidebarItem img{
+        position: static;
+    }
+    /*--- End of Floating Items ---*/
+}
+@media only screen and (min-width: 670px){
     .margenLogo{
         padding: 46px 30px 104px 29px;
     }
