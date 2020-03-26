@@ -235,7 +235,7 @@ h1{
         width: 55px;
         position: fixed;
         z-index: 100;
-        top: 50%;
+        top: 55%;
         left: 0px;
     }
     .sidebarItem{
@@ -304,7 +304,7 @@ h1{
     /*--- Floating Items ---*/
     .sidebarSocial{
         width: 60px;
-        top: 50%;
+        top: 35%;
     }
     .sidebarItem{
         padding: 10px 0px 10px 20px;
@@ -373,7 +373,7 @@ h1{
     /*--- Floating Items ---*/
     .sidebarSocial{
         width: 67.5px;
-        top: 50%;
+        top: 37%;
     }
     .sidebarItem{
         height: 70px;
@@ -403,6 +403,9 @@ h1{
         text-align: center;
         padding: 0px 321px ;
     }
+    .sidebarSocial{
+        top: 33%;
+    }
 }
 @media only screen and (min-width: 1440px){
     .margenLogo{
@@ -414,6 +417,9 @@ h1{
     .margenContact{
         text-align: center;
         padding: 0px 410px ;
+    }
+    .sidebarSocial{
+        top: 40%;
     }
 }
 @media only screen and (min-width: 1920px){
