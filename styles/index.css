@@ -28,6 +28,7 @@ body{
 }
 .Logo{
 	background: url("../icons/logo.svg") center/90%  no-repeat, url("../icons/ilustracion320.svg") center/cover no-repeat;
+	/*background: url("../icons/ilustracion320.svg") center/cover no-repeat;*/
 	height: 494px;
 }
 .Logo img{
@@ -169,13 +170,15 @@ footer{
 	#email{
 		padding-left: 54px;
 	}
-	.info img {
+	.services img {
+		display: block;
 	    text-align: center !important;
-	    margin-left: 12%;
-	    margin-top: 20px;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	h2{
-		padding-left: 29%;
+		text-align: center;
 	}
 }
 /*--- End of 576 ---*/
@@ -184,9 +187,6 @@ footer{
 @media only screen and (min-width: 670px){
 	h1{
 		padding-bottom: 15px;
-	}
-	h2{
-		padding-left: 26%;
 	}
 	p{
 		margin-bottom: -5px;
@@ -197,12 +197,7 @@ footer{
 	.Logo img{
 		height: 284px;
 		visibility: visible;
-	}   
-	.info img {
-	    text-align: center !important;
-	    margin-left: 12%;
-	    margin-top: 20px;
-	}
+	} 
 	.Layout_1 {
     	width: 101%;
     	padding-bottom: 0px;
@@ -250,15 +245,9 @@ footer{
 	.Logo img{
 		height: 424px;
 	}
-	.info img {
-    	margin-left: 23%;
-	}
-	.info img{
+	.services img{
 		width: 155px;
 		height: 40px;
-	}
-	h2{
-		padding-left: 35%;
 	}
 	#tel{
 		text-align: right;
@@ -291,10 +280,7 @@ footer{
 	.Puntos img {
 	    width: 191px;
 	}
-	h2{
-		padding-left: 36%;
-	}
-	.info img{
+	.services img{
 		width: 200px;
 		height: 45px;
 	}
@@ -334,10 +320,9 @@ footer{
 		height: 488px;
 	}
 	h2{
-		padding-top: 31px;
-		padding-left: 35%;
+		padding-top: 48px;
 	}
-	.info img {
+	.services img {
     	margin-bottom: -85px;
 	}
 	.Layout_1 {
@@ -366,13 +351,7 @@ footer{
 		height: 544px;
 	}
 	p{
-		padding-right: 110px;
-	}
-	h2{
-		padding-left: 29%;
-	}
-	.info img{
-		margin-left: 19%;
+		padding-right: 0px;
 	}
 	#tel{
 		padding-right: 55px;
@@ -388,18 +367,11 @@ footer{
 	.Logo img{
 		height: 700px;
 	}
-	p{
-		padding-right: 170px;
-	}
+	
 	#tel{
 		padding-right: 71px;
 	}
 	#email{
 		padding-left: 71px;
-	}
-}
-@media only screen and (min-width: 1600px){
-	h2{
-		padding-left: 27%;
 	}
 }

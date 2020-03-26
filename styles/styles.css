@@ -444,6 +444,9 @@ h1{
     .margenInfo{
         padding: 72px 0px 192px 117px;
     }
+    .services{
+        margin-right: 110px;
+    }
     .margenContact{
         text-align: center;
         padding: 0px 321px ;
@@ -465,6 +468,9 @@ h1{
     }
     .sidebarSocial{
         top: 40%;
+    }
+    .services{
+        margin-right: 170px;
     }
 }
 @media only screen and (min-width: 1920px){
