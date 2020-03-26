@@ -3,12 +3,12 @@ $(document).ready(function(){
 		if(validacion_campos()){
 			$.post("Contacto.php", {
 				nombre: $("#nombre").val(),
-				email: $("#email").val(),
+				email: $("#emails").val(),
 				telefono: $("#telefono").val(),
 				mensaje: $("#inputMsg").val(),
 			}).then(function () {
 				$("#nombre").val(""),
-				$("#email").val(""),
+				$("#emails").val(""),
 				$("#telefono").val(""),
 				$("#inputMsg").val(""),
 				swal("Enviado", {
@@ -24,7 +24,7 @@ function validacion_campos() {
     if ($.trim($("#nombre").val()).length === 0) {
         text = text + "Nombre\n";
     }
-    if ($.trim($("#email").val()).length === 0) {
+    if ($.trim($("#emails").val()).length === 0) {
         text = text + "Email\n";
     }
     if ($.trim($("#telefono").val()).length === 0) {

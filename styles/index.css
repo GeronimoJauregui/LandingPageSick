@@ -28,7 +28,6 @@ body{
 }
 .Logo{
 	background: url("../icons/logo.svg") center/90%  no-repeat, url("../icons/ilustracion320.svg") center/cover no-repeat;
-	/*background: url("../icons/ilustracion320.svg") center/cover no-repeat;*/
 	height: 494px;
 }
 .Logo img{
