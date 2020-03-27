@@ -33,7 +33,9 @@
     font-style: normal;
 }
 /* End of Fonts*/
-
+body{
+    background-color: #112033;
+}
 p{
     font-family: 'Assistant';
     font-size: 16px !important;
