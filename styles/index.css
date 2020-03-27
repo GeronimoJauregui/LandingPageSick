@@ -32,6 +32,7 @@ body{
 }
 .Logo img{
 	visibility: hidden;
+	width: 0%;
 }
 .info img{
 	margin-bottom: -45px;
@@ -308,6 +309,7 @@ footer{
 	.Logo img{
 		height: 250px;
 		visibility: visible;
+		width: 100%;
 	}  
 	.none{
 		display: none;
