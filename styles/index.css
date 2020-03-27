@@ -42,21 +42,66 @@ body{
 	max-width: 40px;
 }
 .Layout_1{
-	padding-top: 19px;
+	padding-top: 32px;
 }
 .Layout_2{
 	padding-bottom: 9px;
 }
 .col-aux{
-	width: 5%;
+	width: 17%;
 }
-.col-5ths {
+.col-aux2{
+	width: 17%;
+}
+.col-aux3{
+	width: 17%;
+}
+.col-aux6{
+	width: 17%;
+}
+.col-5ths1 {
 	position: relative;
-  	padding-right: 10px;
-  	padding-left: 10px;
+  	padding-right: 15px;
+	padding-left: 15px;
+	width: 22%;
+	float: left;
 }
-.col-5ths {
-	width: 18%;
+.col-5ths2 {
+	position: relative;
+  	padding-right: 15px;
+	padding-left: 15px;  
+	width: 22%;
+	float: left;
+}
+.col-5ths3 {
+	position: relative;
+  	padding-right: 15px;
+	padding-left: 15px; 
+	width: 22%;
+	float: left;
+}
+.col-5ths4 {
+	position: relative;
+  	padding-right: 15px;
+	padding-left: 15px; 
+	margin-top: 25px;  
+	width: 22%;
+	float: left;
+}
+.col-5ths5 {
+	position: relative;
+  	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 25px;  
+	width: 22%;
+	float: left;
+}
+.col-5ths6 {
+	position: relative;
+  	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 25px;  
+	width: 22%;
 	float: left;
 }
 .inputHeight{
@@ -93,19 +138,72 @@ footer{
 	    margin-top: 30px;
 	}
 	.Layout_1 {
-    	padding-top: 32px;
+    	padding-top: 36px;
     	padding-bottom: 14px;
 	}
+	
+	.col-aux2{
+		width: 0%;
+	}
+	.col-aux3{
+		width: 0%;
+	}
+
 	.col-aux{
-		width: 10%;
+		width: 17%;
 	}
-	.col-5ths {
+	.col-aux4{
+		width: 17%;
+	}
+	.col-aux5{
+		width: 33.5%;
+	}
+	.col-aux6{
+		width: 33.5%;
+	}
+	.col-5ths1 {
 		position: relative;
-		  padding-right: 10px;
-		  padding-left: 10px;
+		padding-right: 15px;
+		padding-left: 15px;
+		width: 16.5%;
+		float: left;
 	}
-	.col-5ths {
-		width: 16%;
+	.col-5ths2 {
+		position: relative;
+		padding-right: 15px;
+		padding-left: 15px;  
+		width: 16.5%;
+		float: left;
+	}
+	.col-5ths3 {
+		position: relative;
+		padding-right: 15px;
+		padding-left: 15px; 
+		width: 16.5%;
+		float: left;
+	}
+	.col-5ths4 {
+		position: relative;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-top: 0px;  
+		width: 16.5%;
+		float: left;
+	}
+	.col-5ths5 {
+		position: relative;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-top: 25px;  
+		width: 16.5%;
+		float: left;
+	}
+	.col-5ths6 {
+		position: relative;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-top: 25px;  
+		width: 16.5%;
 		float: left;
 	}
 }
@@ -123,6 +221,63 @@ footer{
 	}
 	.button{
 		background: url("../icons/Boton.svg") no-repeat center/48%;
+	}
+	.col-aux{
+		width: 4%;
+	}
+	.col-aux4{
+		width: 0%;
+	}
+	.col-aux5{
+		width: 0%;
+	}
+	.col-aux6{
+		width: 4%;
+	}
+	.col-5ths1 {
+		position: relative;
+		padding-right: 10px;
+		padding-left: 10px;
+		width: 15.3%;
+		float: left;
+	}
+	.col-5ths2 {
+		position: relative;
+		padding-right: 10px;
+		padding-left: 10px;
+		width: 15.3%;
+		float: left;
+	}
+	.col-5ths3 {
+		position: relative;
+		padding-right: 10px;
+		padding-left: 10px;
+		width: 15.3%;
+		float: left;
+	}
+	.col-5ths4 {
+		position: relative;
+		padding-right: 10px;
+		padding-left: 10px;
+		margin-top: 0px;  
+		width: 15.3%;
+		float: left;
+	}
+	.col-5ths5 {
+		position: relative;
+		padding-right: 10px;
+		padding-left: 10px;
+		margin-top: 0px;  
+		width: 15.3%;
+		float: left;
+	}
+	.col-5ths6 {
+		position: relative;
+		padding-right: 10px;
+		padding-left: 10px;
+		margin-top: 0px;  
+		width: 15.3%;
+		float: left;
 	}
 }
 /*--- End of 460 ---*/

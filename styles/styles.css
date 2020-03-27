@@ -139,7 +139,7 @@ h3{
 h5{
     font-family: 'Baloo-ExtraBold';
     font-size: 21px !important;
-    line-height: 14px;
+    line-height: 20px;
     color: #F29745 !important;
 }
 h1{
@@ -280,7 +280,7 @@ h1{
         width: 55px;
         position: fixed;
         z-index: 100;
-        top: 55%;
+        top: 35%;
         left: 0px;
     }
     .sidebarItem{
@@ -418,7 +418,7 @@ h1{
     /*--- Floating Items ---*/
     .sidebarSocial{
         width: 67.5px;
-        top: 37%;
+        top: 35%;
     }
     .sidebarItem{
         height: 70px;
@@ -452,7 +452,7 @@ h1{
         padding: 0px 321px ;
     }
     .sidebarSocial{
-        top: 33%;
+        top: 35%;
     }
 }
 @media only screen and (min-width: 1440px){
@@ -467,7 +467,7 @@ h1{
         padding: 0px 410px ;
     }
     .sidebarSocial{
-        top: 40%;
+        top: 35%;
     }
     .services{
         margin-right: 170px;
