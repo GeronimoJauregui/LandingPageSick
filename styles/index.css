@@ -118,6 +118,7 @@ body{
     margin-top: 30px;
     width: 155px;
     height: 40px;
+    outline: none;
 }
 
 .email-tel{
