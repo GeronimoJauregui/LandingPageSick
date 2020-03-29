@@ -27,7 +27,7 @@ body{
 	float: right;
 }
 .Logo{
-	background: url("../icons/logo.svg") center/90%  no-repeat, url("../icons/ilustracion320.svg") center/cover no-repeat;
+	background: url("../icons/Logo.svg") center/90%  no-repeat, url("../icons/ilustracion320.svg") center/cover no-repeat;
 	height: 494px;
 }
 .Logo img{
@@ -131,7 +131,7 @@ footer{
 /*--- start 390  ---*/
 @media only screen and (min-width: 390px) {
 	.Logo{
-		background: url("../icons/logo.svg") center/90%  no-repeat, url("../icons/Ilustracion_390.svg") center/cover no-repeat;
+		background: url("../icons/Logo.svg") center/90%  no-repeat, url("../icons/Ilustracion_390.svg") center/cover no-repeat;
 		height: 494px;
 	}   
 	.info img {
