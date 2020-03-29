@@ -110,12 +110,14 @@ body{
 }
 
 .button{
-	background: url("../icons/Boton.svg") no-repeat center/52%;
+	background: url("../icons/Boton.svg") no-repeat center/155px;
 	font-family: 'AlteHaasGrotesk-Bold';
     font-size: 18px !important;
     line-height: 25.2px;
     color: #112033 !important;
     margin-top: 30px;
+    width: 155px;
+    height: 40px;
 }
 
 .email-tel{
@@ -220,9 +222,6 @@ footer{
 	    margin-bottom: -33px;
 	    margin-top: 27.3px;
 	}
-	.button{
-		background: url("../icons/Boton.svg") no-repeat center/48%;
-	}
 	.col-aux{
 		width: 4%;
 	}
@@ -294,8 +293,7 @@ footer{
 	    margin-top: 30px;
 	}
 	.button{
-		background: url("../icons/Boton.svg") no-repeat center/45%;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 }
 /*--- End of 565 ---*/
@@ -379,11 +377,6 @@ footer{
     	padding-top: 30px;
     	padding-bottom: 13px;
 	}
-
-	.button{
-		height: 40px;
-		background-size: 35%;
-	}
 	#tel{
 		padding-right: 31px;
 	}
@@ -449,7 +442,8 @@ footer{
 	.button{
 
 		height: 45px;
-		background-size: 40%;
+		background: url("../icons/Boton.svg") no-repeat center/175px;
+		width: 175px;
 		margin-top: 32px;
 		margin-bottom: 67px;
 	}
